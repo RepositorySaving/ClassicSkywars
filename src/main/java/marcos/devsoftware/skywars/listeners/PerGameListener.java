@@ -47,6 +47,5 @@ public class PerGameListener implements Listener {
         Game game = gameManager.findGameByPlayer(player);
 
         Bukkit.getPluginManager().callEvent(new LeaveGameEvent(game, player));
-        event.setQuitMessage(null);
     }
 }
