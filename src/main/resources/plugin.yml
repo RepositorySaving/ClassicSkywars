@@ -1,0 +1,7 @@
+name: ClassicSkywars
+version: 0.0.1-SNAPSHOT
+author: zMarcoos
+main: marcos.devsoftware.skywars.SkywarsPlugin
+commands:
+  skywars:
+    aliases: ['sw']
