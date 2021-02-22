@@ -13,7 +13,6 @@ public class PlayerTeam {
     private final String teamName;
     private final Team team;
     private String prefix;
-    private String suffix;
 
     public PlayerTeam(Scoreboard scoreboard, String teamName) {
        this.teamName = MessageUtility.format(teamName);
