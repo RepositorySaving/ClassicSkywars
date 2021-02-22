@@ -35,6 +35,7 @@ public class AlwaysActiveListener implements Listener {
                 online.showPlayer(player);
                 continue;
             }
+            
             player.hidePlayer(online);
             online.hidePlayer(player);
         }
