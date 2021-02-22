@@ -35,17 +35,11 @@ public class PlayerTeam {
         if (prefix.length() <= 16) {
             team.setPrefix(prefix);
             return this;
+        } else {
+            prefix = prefix.substring(0, 16);
         }
-
-        suffix = prefix.substring(16);
-        prefix = prefix.substring(0, 16);
-
-        if (suffix.length() > 16) {
-            suffix = suffix.substring(0, 16);
-        }
-
+        
         team.setPrefix(prefix);
-        team.setSuffix(suffix);
 
         return this;
     }
